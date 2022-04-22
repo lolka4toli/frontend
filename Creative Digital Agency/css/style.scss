@@ -1,0 +1,141 @@
+@import "null-style.scss";
+@import "fonts.scss";
+
+%align-center {
+   margin: 0 auto;
+}
+
+%full-size-block {
+   display: block;
+   width: 100%;
+}
+
+.content {
+   width: 1600px;
+   @extend %align-center;
+}
+
+.start-screen {
+   @extend %full-size-block;
+   height: 880px;
+   background: url(../img/start-screen-background.jpg) center no-repeat;
+ }
+.start-screen__menu-bar {
+   @extend %full-size-block;
+   height: 115px;
+ }
+.start-screen__menu-bar__logo {
+   float: left;
+   width: 79px;
+   height: 75px;
+   margin: 22px 0 0 214px;
+   background: url(../img/logo.png) center no-repeat;
+ }
+.start-screen__menu-bar__navigation {
+   display: inline-block;
+   width: 675px;
+   height: 61px;
+   margin: 55px 0 0 227px;
+   text-align: center;
+   a {
+      color: #ffffff;
+      font-family: "Myriad Pro";
+      font-size: 20px;
+      margin-right: 50px;
+   }
+
+   a:last-child {
+      margin: 0;
+   }
+ }
+.start-screen__menu-bar__socials {
+   display: inline-flex;
+   justify-content: space-between;
+   width: 180px;
+   margin: 53px 0 0 54px;
+ 
+   a {
+      margin-right: 0;
+   }
+
+   a:last-child {
+      margin-top: auto;
+      margin-right: 0px;
+   }
+ }
+.start-screen__menu-bar__socials__icon { }
+.start-screen__text-block { }
+.start-screen__text-block__caption { }
+.start-screen__text-block__link { }
+.start-screen__scroll-block { }
+.start-screen__scroll-block-text { }
+.start-screen__scroll-block-button { }
+.about { }
+.about__title { }
+.about__cards { }
+.about__cards__card { }
+.about__cards__card__logo { }
+.about__cards__card__title { }
+.about__cards__card__text { }
+.photos { }
+.photos__block { }
+.photos__block__first { }
+.photos__block__first__text { }
+.photos__block_first__navigation { }
+.photos__block__first__title { }
+.photos__block__fourth { }
+.photos__block__fourth__text { }
+.photos__block_fourth__navigation { }
+.photos__block__fourth__title { }
+.blog { }
+.blog__text-area { }
+.blog__title { }
+.blog__text { }
+.blog__cards { }
+.blog__cards__card { }
+.blog__cards__card__text-area { }
+.blog__cards__card__text-area__title { }
+.blog__cards__card__text-area__text { }
+.strange-blue-block { }
+.strange-blue-block-left { }
+.strange-blue-block-left-media { }
+.strange-blue-block-left-media-icon { }
+.strange-blue-block-left-media-text { }
+.strange-blue-block-right { }
+.strange-blue-block-right-media { }
+.iphone { }
+.iphone__left-block { }
+.iphone__left-block__text-area { }
+.iphone__left-block__text-area__title { }
+.iphone__left-block__text-area__text { }
+.iphone__left-block__scale-area { }
+.iphone__left-block__scale-area__first { }
+.iphone__left-block__scale-area__second { }
+.iphone__left-block__scale-area__third { }
+.iphone__right-block { }
+.team { }
+.team__text-area { }
+.team__text-area__title { }
+.team__text-area__text { }
+.team__profile-area { }
+.team__profile-area__profile { }
+.team__profile-area__profile__first { }
+.team__profile-area__profile__bio { }
+.team__profile-area__profile__bio__text-area { }
+.team__profile-area__profile__bio__name { }
+.team__profile-area__profile__bio__job { }
+.team__profile-area__profile__second { }
+.team__profile-area__profile__third { }
+.team__profile-area__profile__fourth { }
+.contact-us { }
+.contact-us__content { }
+.contact-us__content__title { }
+.contact-us__form { }
+.contact-us__name { }
+.contact-us__e-mail { }
+.contact-us__phone { }
+.contact-us__message { }
+.contact-us__button { }
+.map { }
+.footer-content { }
+.footer-content-copyright { }
