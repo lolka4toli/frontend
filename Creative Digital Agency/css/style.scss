@@ -23,6 +23,8 @@
 .start-screen__menu-bar {
    @extend %full-size-block;
    height: 115px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+
  }
 .start-screen__menu-bar__logo {
    float: left;
